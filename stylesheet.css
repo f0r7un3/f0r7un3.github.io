@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}	
+
+body {
+    background-color: #EEEEEE;
+	display: table;
+}
+
+div {
+    width: 50%;
+    margin: 20px;
+    font-size: 16px;
+    font-size: 3.75vw; 
+
+}
+
+a:link, a:visited, a:hover, a:active, h1 {
+	text-decoration:  none;
+    color: #444;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.block {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}	
