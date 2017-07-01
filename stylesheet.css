@@ -10,14 +10,6 @@ body {
 	display: table;
 }
 
-div {
-    width: 50%;
-    margin: 20px;
-    font-size: 16px;
-    font-size: 3.75vw; 
-
-}
-
 a:link, a:visited, a:hover, a:active, h1 {
 	text-decoration:  none;
     color: #444;
@@ -28,5 +20,25 @@ a:link, a:visited, a:hover, a:active, h1 {
 .block {
     text-align: center;
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: middle;	
 }	
+
+@media only screen and (min-width: 100px) and (max-width: 800px) {
+	div {
+		width: 50%;
+		margin: 20px;
+		font-size: 16px;
+		font-size: 6vw; 
+	}
+	
+}
+
+@media only screen and (min-width: 800px) {
+	div {
+		width: 50%;
+		margin: 20px;
+		font-size: 16px;
+		font-size: 3.75vw; 
+	}
+	
+}
